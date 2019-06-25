@@ -1,3 +1,5 @@
+import { ApiModelProperty, ApiUseTags } from '@nestjs/swagger';
+
 
 export interface Cat {
   name: string;
